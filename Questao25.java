@@ -31,17 +31,4 @@ public class Questao25{
         }
         return(vetor);
     }
-
-    public static void fatorial(Scanner inputObj) {
-        System.out.print("Digite o número: ");
-        int numeroFatorial = inputObj.nextInt();
-        int fatorial = numeroFatorial;
-        System.out.printf("%d! = %d ", numeroFatorial, fatorial);
-        for (int i = numeroFatorial-1; i >= 1; i--) {
-            fatorial *= i;
-            System.out.printf("x %d ", i); 
-        }
-        System.out.printf("= %d \n", fatorial); 
-    }
-
 }

@@ -32,6 +32,7 @@ public class Questao24{
                     raiz(inputObj);
                     break;
                 case 3:
+                    fatorial(inputObj);
                     break;
                 case 0:
                     System.out.println("Encerrando programa...");
